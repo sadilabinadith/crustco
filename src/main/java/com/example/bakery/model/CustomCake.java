@@ -9,10 +9,10 @@ import lombok.Setter;
 @Setter
 public class CustomCake {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Unique identifier for the custom cake.
     private Long id;
 
-    private String design;
-    private String message;
+    private String design; // Requested for the custom cake
+    private String message; // Personalized message written on the cake.
 }
