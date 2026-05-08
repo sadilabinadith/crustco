@@ -13,9 +13,8 @@
 </head>
 <body>
 
-<!-- ════════════════════════════════════════
-     NAVIGATION
-════════════════════════════════════════ -->
+<!-- ================= NAVIGATION ===================-->
+
 <nav class="navbar">
   <a href="${pageContext.request.contextPath}/" class="nav-logo">
     <div class="logo-mark">C</div>
@@ -56,9 +55,9 @@
   </button>
 </nav>
 
-<!-- ════════════════════════════════════════
-     HERO
-════════════════════════════════════════ -->
+
+<!-- ================================ HERO ================================ -->
+
 <section class="hero">
   <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1800&q=80')"></div>
   <div class="hero-overlay"></div>
@@ -80,9 +79,9 @@
   </div>
 </section>
 
-<!-- ════════════════════════════════════════
-     MARQUEE
-════════════════════════════════════════ -->
+
+<!-- ================================= MARQUEE ===================================== -->
+
 <div class="marquee-strip" aria-hidden="true">
   <div class="marquee-inner">
     <span class="marquee-item">Artisan Cakes <span class="marquee-dot"></span></span>
@@ -104,9 +103,9 @@
   </div>
 </div>
 
-<!-- ════════════════════════════════════════
-     STATS
-════════════════════════════════════════ -->
+
+<!-- ===================================== STATS ===================================== -->
+
 <div class="stats-row">
   <div class="stat-cell reveal">
     <div class="stat-num">200<sup>+</sup></div>
@@ -126,9 +125,9 @@
   </div>
 </div>
 
-<!-- ════════════════════════════════════════
-     SPLIT — OUR STORY
-════════════════════════════════════════ -->
+
+<!-- ====================================== SPLIT — OUR STORY ==========================================-->
+
 <div class="split-section" id="story">
   <div class="split-img">
     <img src="https://png.pngtree.com/thumb_back/fw800/background/20230613/pngtree-bakery-with-a-lot-of-bread-and-pastries-image_2927312.jpg"
@@ -143,9 +142,9 @@
   </div>
 </div>
 
-<!-- ════════════════════════════════════════
-     FEATURED PRODUCTS — from database
-════════════════════════════════════════ -->
+
+<!-- ===================================== FEATURED PRODUCTS — from database ======================================== -->
+
 <section class="section featured-products">
   <div class="container">
     <div class="text-center reveal">
@@ -254,9 +253,9 @@
   </div>
 </section>
 
-<!-- ════════════════════════════════════════
-     SPLIT — PROCESS
-════════════════════════════════════════ -->
+
+<!-- ===================================== SPLIT — PROCESS =========================================== -->
+
 <div class="split-section" style="border-top:1px solid var(--border)">
   <div class="split-body reverse">
     <span class="eyebrow">The Process</span>
@@ -271,9 +270,8 @@
   </div>
 </div>
 
-<!-- ════════════════════════════════════════
-     TESTIMONIALS
-════════════════════════════════════════ -->
+<!-- ======================================== TESTIMONIALS =============================================== -->
+
 <section class="section testi-section">
   <div class="container">
     <div class="text-center reveal">
@@ -324,9 +322,9 @@
   </div>
 </section>
 
-<!-- ════════════════════════════════════════
-     CTA BANNER
-════════════════════════════════════════ -->
+
+<!-- ======================================== CTA BANNER ======================================== -->
+
 <div class="cta-banner">
   <div class="cta-banner-bg"></div>
   <div class="cta-banner-overlay"></div>
@@ -340,9 +338,9 @@
   </div>
 </div>
 
-<!-- ════════════════════════════════════════
-     FOOTER
-════════════════════════════════════════ -->
+
+<!-- ================================================= FOOTER ============================================= -->
+
 <footer>
   <div class="footer-top container">
     <div class="footer-brand">
