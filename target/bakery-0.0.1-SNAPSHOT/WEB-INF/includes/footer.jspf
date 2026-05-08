@@ -1,0 +1,41 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<footer>
+  <div class="footer-top container">
+    <div class="footer-brand">
+      <a href="${pageContext.request.contextPath}/" class="nav-logo">
+        <div class="logo-mark">C</div>
+        <span class="logo-text">Crust &amp; Co.</span>
+      </a>
+      <p>Artisan baked goods crafted with devotion and the world's finest ingredients. Baking joy since 1987.</p>
+      <div class="footer-socials">
+        <div class="soc-btn">&#9678;</div>
+        <div class="soc-btn">&#9678;</div>
+        <div class="soc-btn">&#9678;</div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <a href="${pageContext.request.contextPath}/products">All Products</a>
+      <a href="${pageContext.request.contextPath}/products?cat=cakes">Cakes</a>
+      <a href="${pageContext.request.contextPath}/products?cat=bread">Breads</a>
+      <a href="${pageContext.request.contextPath}/products?cat=pastries">Pastries</a>
+      <a href="${pageContext.request.contextPath}/products?cat=donuts">Donuts</a>
+    </div>
+    <div class="footer-col">
+      <h4>Account</h4>
+      <a href="${pageContext.request.contextPath}/login">Sign In</a>
+      <a href="${pageContext.request.contextPath}/login">Register</a>
+      <a href="${pageContext.request.contextPath}/cart">My Cart</a>
+      <a href="${pageContext.request.contextPath}/checkout">Checkout</a>
+    </div>
+    <div class="footer-col">
+      <h4>Info</h4>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>&copy; 2026 Crust &amp; Co. All rights reserved.</span>
+    <span>Privacy &nbsp;&middot;&nbsp; Terms</span>
+  </div>
+</footer>
