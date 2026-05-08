@@ -17,6 +17,9 @@ public class Product {
     private String description;
     private String category;
     private double price;
+
+    @Column(name = "image_url")
     private String imageUrl;
+
     private String badge;
 }
