@@ -106,14 +106,14 @@
     <div class="cart-summary">
       <div class="cs-title">Order Summary</div>
       <div class="cs-row"><span>Subtotal</span><span id="csSub">Rs.0.00</span></div>
-      <div class="cs-row"><span>Delivery</span><span id="csDel">Rs.1,200.99</span></div>
+      <div class="cs-row"><span>Delivery</span><span id="csDel">Rs.500.00</span></div>
       <div class="cs-row"><span>Tax (8%)</span><span id="csTax">Rs.0.00</span></div>
       <div class="cs-row total">
         <span>Total</span>
         <span id="csTot">Rs.0.00</span>
       </div>
       <div class="cs-note">
-        <span>Free delivery</span> on orders over Rs.3,000.00
+        <span>Free delivery</span> on orders over Rs.5,000.00
       </div>
       <a href="${pageContext.request.contextPath}/checkout"
          class="btn btn-primary"
