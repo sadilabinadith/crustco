@@ -4,9 +4,9 @@
  */
 
 const CART_KEY          = 'cc_cart';
-const DELIVERY_FEE      = 1200.99;
+const DELIVERY_FEE      = 500.00;
 const TAX_RATE          = 0.08;
-const FREE_DELIVERY_MIN = 3000;
+const FREE_DELIVERY_MIN = 5000;
 
 /* ── Get / Save cart ─────────────────────────────────────────── */
 function getCart() {

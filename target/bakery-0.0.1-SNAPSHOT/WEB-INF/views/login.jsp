@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Account — Crust &amp; Co.</title>
   <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body style="display:flex;flex-direction:column;min-height:100vh;">
 
@@ -127,8 +128,14 @@
 
         <div class="auth-divider">or continue with</div>
         <div class="social-row">
-          <button class="social-btn">G &nbsp; Google</button>
-          <button class="social-btn">&#127822; &nbsp; Apple</button>
+          <button class="social-btn">
+            <i class="fab fa-google" style="color:#EA4335;font-size:1rem;"></i>
+            &nbsp; Google
+          </button>
+          <button class="social-btn">
+            <i class="fab fa-apple" style="color:#ffffff;font-size:1.1rem;"></i>
+            &nbsp; Apple
+          </button>
         </div>
       </div>
 

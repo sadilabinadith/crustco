@@ -168,7 +168,7 @@
               <div class="opt-icon">&#128230;</div>
               <div>
                 <div class="opt-label">Standard</div>
-                <div class="opt-sub">2–3 days &middot; Rs.1,200.99</div>
+                <div class="opt-sub">2–3 days &middot; Rs.500.00</div>
               </div>
             </label>
             <label class="opt-tile" id="tile-express">
@@ -233,14 +233,14 @@
       </div>
       <div class="co-totals">
         <div class="cs-row"><span>Subtotal</span><span id="coSub">Rs.0.00</span></div>
-        <div class="cs-row"><span>Delivery</span><span id="coDel">Rs.1,200.99</span></div>
+        <div class="cs-row"><span>Delivery</span><span id="coDel">Rs.500.00</span></div>
         <div class="cs-row"><span>Tax (8%)</span><span id="coTax">Rs.0.00</span></div>
         <div class="cs-row total">
           <span>Total</span>
           <span id="coTot">Rs.0.00</span>
         </div>
         <div class="cs-note" style="margin-top:16px;">
-          <span>Free delivery</span> on orders over Rs.3,000.00
+          <span>Free delivery</span> on orders over Rs.5,000.00
         </div>
       </div>
     </div>
